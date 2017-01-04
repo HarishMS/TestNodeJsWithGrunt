@@ -13,7 +13,7 @@ app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(express.methodOverride());
+app.use(express.methodOverride()); 
 app.use(app.router);
 
 import stylus = require('stylus');

@@ -11,7 +11,9 @@
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "jade": "*",
+    "load-grunt-tasks": "^3.5.2",
     "stylus": "*",
+    "time-grunt": "^1.4.0",
     "typescript": "^2.1.4"
   }
 }
